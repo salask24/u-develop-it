@@ -1,4 +1,5 @@
 const mysql = require("mysql2");
+const db = require('./connection');
 const express = require('express');
 const inputCheck = require('./utils/inputCheck');
 

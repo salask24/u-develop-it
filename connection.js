@@ -10,3 +10,6 @@ const db = mysql.createConnection({
   password: 'Lucky$alas24',
   database: 'election'
 });
+
+
+module.exports = db;
