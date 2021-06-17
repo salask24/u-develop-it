@@ -13,13 +13,6 @@ app.use(express.json());
 //Use api routes
 app.use('/api', apiRoutes);
 
-
-//moved all candidates to candidateRoute.js
-//moved all candidates to partyRoutes.js
-
-
-
-
 // Default response for any other request (Not Found)
 app.use((req, res) => {
     res.status(404).end();
